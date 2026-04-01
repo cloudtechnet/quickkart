@@ -1,5 +1,4 @@
-# <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/c66958d7-4c6c-4c0f-919c-770f4307cef2" />
-
+# <img width="1024" height="279" alt="logo" src="https://github.com/user-attachments/assets/bddb6c6b-f691-4864-b7dd-22e3ac78cba6" />
 
 ## 🚀 QuickKart.com – Real-Time DevOps Project Introduction 
 
