@@ -1,6 +1,6 @@
 # www.quickkart.com
 
-## 🚀 QuickKart.com – Real-Time DevOps Project Introduction (Trainer-Friendly)
+## 🚀 QuickKart.com – Real-Time DevOps Project Introduction 
 
 Let’s understand this like we are in a classroom building a **real company product** 👇
 
