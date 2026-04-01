@@ -1,0 +1,5 @@
+image:
+  repository: yourdockerhub/product-service
+  tag: latest
+
+replicaCount: 2
