@@ -1,3 +1,5 @@
+# <img width="1024" height="279" alt="logo" src="https://github.com/user-attachments/assets/bddb6c6b-f691-4864-b7dd-22e3ac78cba6" />
+
 # 🛒 QuickKart — Instant Grocery Delivery Platform
 
 A full-stack 3-tier grocery delivery web app inspired by Zepto, built with React, Node.js/Express, and MySQL.
