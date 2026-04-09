@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 {
   "name": "service",
   "version": "1.0.0",
   "dependencies": {
     "express": "^4.18.2"
   }
+=======
+{
+  "name": "service",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+>>>>>>> 364fa4719a5f4ea8ad34d7d78fa2a4a304db08f5
 }

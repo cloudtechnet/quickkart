@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -16,4 +17,24 @@ spec:
       - name: product
         image: yourdockerhub/product-service:latest
         ports:
+=======
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: product-service
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: product
+  template:
+    metadata:
+      labels:
+        app: product
+    spec:
+      containers:
+      - name: product
+        image: yourdockerhub/product-service:latest
+        ports:
+>>>>>>> 364fa4719a5f4ea8ad34d7d78fa2a4a304db08f5
         - containerPort: 3001

@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 image:
   repository: yourdockerhub/product-service
   tag: latest
 
+=======
+image:
+  repository: yourdockerhub/product-service
+  tag: latest
+
+>>>>>>> 364fa4719a5f4ea8ad34d7d78fa2a4a304db08f5
 replicaCount: 2

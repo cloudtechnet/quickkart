@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -16,4 +17,24 @@ spec:
       - name: quickkart
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
         ports:
+=======
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: quickkart
+  template:
+    metadata:
+      labels:
+        app: quickkart
+    spec:
+      containers:
+      - name: quickkart
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        ports:
+>>>>>>> 364fa4719a5f4ea8ad34d7d78fa2a4a304db08f5
         - containerPort: 3001

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 apiVersion: v1
 kind: Service
 metadata:
@@ -8,4 +9,16 @@ spec:
   ports:
     - port: 80
       targetPort: 3001
+=======
+apiVersion: v1
+kind: Service
+metadata:
+  name: product-service
+spec:
+  selector:
+    app: product
+  ports:
+    - port: 80
+      targetPort: 3001
+>>>>>>> 364fa4719a5f4ea8ad34d7d78fa2a4a304db08f5
   type: LoadBalancer
